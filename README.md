@@ -16,7 +16,7 @@ Bybit v5 API から ETHUSDT / BTCUSDT（USDT無期限＝linear） の価格を�
 - `curl` と `python3`（Homebrew 推奨）
   ```bash
   brew install --cask swiftbar
-  brew install python
+  brew install python3
 
 ## 使い方
 - このリポジトリをダウンロード（または git clone）＆解凍
