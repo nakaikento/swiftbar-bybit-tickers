@@ -47,7 +47,7 @@ sleep $((RANDOM % 3))  # 0〜2秒の遅延
 - メニューが — の表示：ネットワーク/VPN/プロキシの影響や一時エラーの可能性。
   - ドロップダウンの Body(head) に本文先頭が出ます。JSON が見えていれば通信は成功。
   - 必要ならスクリプト先頭の unset http_proxy https_proxy all_proxy を有効化。
-- `python3 not found`：Homebrew で brew install python、または Xcode に同梱の python3 を使用します。
+- `python3 not found`：Homebrew で `brew install python`、または Xcode に同梱の python3 を使用します。
 - 権限不足：`chmod +x` を実行してください。
 
 ## 仕組み
